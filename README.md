@@ -8,15 +8,24 @@ cadeias que:
 
 a. Comecem com 100.
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG008.png)
+Cadeias Aceitas:
+{100, 1000, 1001, 10010, 100100, 10011100, 1001010 ...}
+Cadeias Não Aceitas:
+{’ ’, 0, 01000, 01, 01010 ...}
 
 b. Terminem com 100.
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG009.png)
+Cadeias Aceitas:
+{0100, 10100, 100100,1100, 1010100 ...}
+Cadeias Não Aceitas:
+{’ ’, 01001,10010, 101010 ...}
 
 c. Comecem ou terminem com 100.
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
+Cadeias Aceitas:
+{100, 1000, 10011100, 10010, 1000100100 ...}
+Cadeias Não Aceitas:
+{’ ’, 01001000,10000,101010001 ...}
 
 2. James Bond, também conhecido por agente 007, é um agente secreto fictício do serviço
 de espionagem britânico MI-6. Seus filmes são famosos e sua franquia de filmes é uma
@@ -44,6 +53,19 @@ aula para testar a aplicação ou o exemplo abaixo onde é possível visualizar 
 aceitação, visto na Figura 2.
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG011.png)
+
+a. Comecem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG008.png)
+
+b. Terminem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG009.png)
+
+c. Comecem ou terminem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
+
 
 ## Testes realizados com as cadeias aceitas e não aceitas
 
