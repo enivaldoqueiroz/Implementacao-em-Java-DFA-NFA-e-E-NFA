@@ -107,10 +107,15 @@ aceitação, visto na Figura 2.
 a. Calcule o ε-fechamento (função ECLOSE) de cada estado
 
 ECLOSE(q1) = {q1,q2,q6}
+
 ECLOSE(q2) = {q2}
+
 ECLOSE(q3) = {q3,q4}
+
 ECLOSE(q4) = {q4}
+
 ECLOSE(q5) = {q5,q2,q6}
+
 ECLOSE(q6) = {q6}
 
 
