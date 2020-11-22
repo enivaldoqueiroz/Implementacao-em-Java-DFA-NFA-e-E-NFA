@@ -8,9 +8,15 @@ cadeias que:
 
 a. Comecem com 100.
 
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG008.png)
+
 b. Terminem com 100.
 
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG009.png)
+
 c. Comecem ou terminem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
 
 2. James Bond, também conhecido por agente 007, é um agente secreto fictício do serviço
 de espionagem britânico MI-6. Seus filmes são famosos e sua franquia de filmes é uma
@@ -28,9 +34,7 @@ Dica: Você pode validar sua implementação considerando as questões 1 e 2.
 sido processados, ou seja, não há mais símbolos para serem lidos e que em um dos
 sub-caminhos possíveis para processar a cadeia o último estado seja um estado final.
 Implemente, em sua linguagem de preferência, um algoritmo que:
-
 a. Mostra todos os caminhos possíveis de um NFA
-
 b. Verifica se a cadeia é válida.
 
 Dica.: O seu algoritmo pode ser recursivo e receber como entrada o NFA e a cadeia a
@@ -40,6 +44,13 @@ aula para testar a aplicação ou o exemplo abaixo onde é possível visualizar 
 aceitação, visto na Figura 2.
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG011.png)
+
+## Testes realizados com as cadeias aceitas e não aceitas
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG0003.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG006.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG007.png)
+
 
 5. Para o ε-NFA abaixo faça:
 
@@ -96,30 +107,13 @@ de processamentos bem sucedidos e explicando a solução.
 . Adicione um readme no projeto informando como as simulações devem ser
 realizadas
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG001.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG00001.png)
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG002.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG00002.png)
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG003.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG00004.png)
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG004.png)
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG005.png)
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG006.png)
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG007.png)
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG008.png)
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG009.png)
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
-
-
-
-
-
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG00005.png)
 
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
