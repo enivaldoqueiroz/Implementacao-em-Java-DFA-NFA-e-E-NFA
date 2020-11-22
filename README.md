@@ -106,9 +106,29 @@ aceitação, visto na Figura 2.
 
 a. Calcule o ε-fechamento (função ECLOSE) de cada estado
 
+ECLOSE(q1) = {q1,q2,q6}
+ECLOSE(q2) = {q2}
+ECLOSE(q3) = {q3,q4}
+ECLOSE(q4) = {q4}
+ECLOSE(q5) = {q5,q2,q6}
+ECLOSE(q6) = {q6}
+
+
 b. Converta o autômato em um DFA
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG012.png)
+
+### Diagrama de transição E-NFA
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG018.png)
+
+### Tabela
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG019.png)
+
+### Diagrama de transição DFA
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG020.png)
 
 6. Para o ε-NFA abaixo faça:
 
