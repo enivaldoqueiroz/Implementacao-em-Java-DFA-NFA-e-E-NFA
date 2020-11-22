@@ -14,6 +14,10 @@ Cadeias Aceitas:
 Cadeias Não Aceitas:
 {’ ’, 0, 01000, 01, 01010 ...}
 
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
+
 b. Terminem com 100.
 
 Cadeias Aceitas:
@@ -30,10 +34,6 @@ c. Comecem ou terminem com 100.
 
 Cadeias Aceitas:
 {100, 1000, 10011100, 10010, 1000100100 ...}
-
-### Diagrama de transição
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
 
 Cadeias Não Aceitas:
 {’ ’, 01001000,10000,101010001 ...}
