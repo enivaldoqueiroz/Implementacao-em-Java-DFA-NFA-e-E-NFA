@@ -30,6 +30,10 @@ Cadeias Aceitas:
 Cadeias Não Aceitas:
 {’ ’, 01001000,10000,101010001 ...}
 
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
+
 2. James Bond, também conhecido por agente 007, é um agente secreto fictício do serviço
 de espionagem britânico MI-6. Seus filmes são famosos e sua franquia de filmes é uma
 das mais antigas do cinema. Suponha que para identificar um agente James Bond em um
@@ -141,4 +145,4 @@ realizadas
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG00005.png)
 
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
+
