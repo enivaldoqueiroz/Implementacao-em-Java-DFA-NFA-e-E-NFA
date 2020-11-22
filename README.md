@@ -30,18 +30,19 @@ aula para testar a aplicação ou o exemplo abaixo onde é possível visualizar 
 aceitação, visto na Figura 2.
 Figura 1- Exemplo de um NFA
 Figura 2- Caminhos possíveis para processar à cadeia 00101 sobre o NFA da Figura 1
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG011.png)
 5. Para o ε-NFA abaixo faça:
 a. Calcule o ε-fechamento (função ECLOSE) de cada estado
 b. Converta o autômato em um DFA
 ℇ 0 1
-→q1 {q2,q6} ∅ ∅
-q2 ∅ ∅ q3
-q3 q4 ∅ ∅
-q4 ∅ q5 ∅
-q5 {q2,q6} ∅ ∅
-*q6 ∅ ∅ ∅6. Para o ε-NFA abaixo faça:
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG012.png)
+
+6. Para o ε-NFA abaixo faça:
 a. Calcule o ε-fechamento (função ECLOSE) de cada estado
 b. Converta o autômato em um DFA
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG013.png)
+
 7. Implemente um algoritmo, em sua linguagem de preferência, que converte um ε-NFA
 para um DFA utilizando a função ε-fechamento (ECLOSE) e o procedimento da
 construção de subconjuntos dos estados alcançados pela função ECLOSE. Este DFA deve
@@ -90,10 +91,10 @@ realizadas
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG011.png)
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG012.png)
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG013.png)
+
+
+
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
