@@ -10,6 +10,7 @@ a. Comecem com 100.
 
 Cadeias Aceitas:
 {100, 1000, 1001, 10010, 100100, 10011100, 1001010 ...}
+
 Cadeias Não Aceitas:
 {’ ’, 0, 01000, 01, 01010 ...}
 
@@ -17,6 +18,7 @@ b. Terminem com 100.
 
 Cadeias Aceitas:
 {0100, 10100, 100100,1100, 1010100 ...}
+
 Cadeias Não Aceitas:
 {’ ’, 01001,10010, 101010 ...}
 
@@ -24,6 +26,7 @@ c. Comecem ou terminem com 100.
 
 Cadeias Aceitas:
 {100, 1000, 10011100, 10010, 1000100100 ...}
+
 Cadeias Não Aceitas:
 {’ ’, 01001000,10000,101010001 ...}
 
