@@ -61,14 +61,17 @@ Questão extra:
 mesmo tempo um número par de 0’s e 1’s}. Exemplos de cadeias aceitas pela ER são:
 {1001, 000011, 11101000, 01010101, ...}, Exemplos de cadeias que não são aceitas {001,
 110, 01011, ...}
-Entregável
-● Realizar o trabalho individualmente
-● Ler a especificação do trabalho e tirar quaisquer dúvidas● Entregar o trabalho pelo portal com os links de documento, apresentação do
+
+## Entregável
+
+. Realizar o trabalho individualmente
+. Ler a especificação do trabalho e tirar quaisquer dúvidas,
+. Entregar o trabalho pelo portal com os links de documento, apresentação do
 power point (se necessário), código fonte disponível no git e vídeo explicando
 como os algoritmos devem ser utilizados.
-● Realizar um vídeo com apresentação das questões práticas, mostrando exemplos
+. Realizar um vídeo com apresentação das questões práticas, mostrando exemplos
 de processamentos bem sucedidos e explicando a solução.
-● Adicione um readme no projeto informando como as simulações devem ser
+. Adicione um readme no projeto informando como as simulações devem ser
 realizadas
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG001.png)
