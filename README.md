@@ -41,10 +41,35 @@ interrogatório basta que ele fale, dentre quaisquer código, à subcadeia igual
 código, (007). Construa um autômato (DFA ou NFA) para reconhecer um agente 007,
 cujo alfabeto é composto apenas de números inteiros [0-9].
 
+Cadeias Aceitas:
+{007, 00070, 0007, 10007, 007007, 123007, 007123007 ...}
+
+Cadeias Não Aceitas:
+{’ ’, 7, 07, 070, 707070, 12307, 907 ...}
+
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG015.png)
+
 3. Implemente, em sua linguagem de preferência, um algoritmo que converte um NFA
 para um DFA utilizando o procedimento denominado construção de subconjuntos para
 encontrar o DFA que reconhece a mesma linguagem do NFA.
 Dica: Você pode validar sua implementação considerando as questões 1 e 2.
+
+### Validando a questão 1 atraves da implementação
+
+a. Comecem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG008.png)
+
+b. Terminem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG009.png)
+
+c. Comecem ou terminem com 100.
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
+
 
 4. Para que uma cadeia seja reconhecida em um NFA basta que todos os símbolos tenham
 sido processados, ou seja, não há mais símbolos para serem lidos e que em um dos
@@ -60,18 +85,6 @@ aula para testar a aplicação ou o exemplo abaixo onde é possível visualizar 
 aceitação, visto na Figura 2.
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG011.png)
-
-a. Comecem com 100.
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG008.png)
-
-b. Terminem com 100.
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG009.png)
-
-c. Comecem ou terminem com 100.
-
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
 
 
 ## Testes realizados com as cadeias aceitas e não aceitas
