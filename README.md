@@ -22,17 +22,25 @@ Cadeias Aceitas:
 Cadeias Não Aceitas:
 {’ ’, 01001,10010, 101010 ...}
 
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG016.png)
+
 c. Comecem ou terminem com 100.
 
 Cadeias Aceitas:
 {100, 1000, 10011100, 10010, 1000100100 ...}
+
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
 
 Cadeias Não Aceitas:
 {’ ’, 01001000,10000,101010001 ...}
 
 ### Diagrama de transição
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG014.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG017.png)
 
 2. James Bond, também conhecido por agente 007, é um agente secreto fictício do serviço
 de espionagem britânico MI-6. Seus filmes são famosos e sua franquia de filmes é uma
