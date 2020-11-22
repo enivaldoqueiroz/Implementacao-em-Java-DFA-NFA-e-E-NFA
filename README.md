@@ -65,12 +65,16 @@ mesmo tempo um número par de 0’s e 1’s}. Exemplos de cadeias aceitas pela E
 ## Entregável
 
 . Realizar o trabalho individualmente
-. Ler a especificação do trabalho e tirar quaisquer dúvidas,
+
+. Ler a especificação do trabalho e tirar quaisquer dúvidas
+
 . Entregar o trabalho pelo portal com os links de documento, apresentação do
 power point (se necessário), código fonte disponível no git e vídeo explicando
 como os algoritmos devem ser utilizados.
+
 . Realizar um vídeo com apresentação das questões práticas, mostrando exemplos
 de processamentos bem sucedidos e explicando a solução.
+
 . Adicione um readme no projeto informando como as simulações devem ser
 realizadas
 
