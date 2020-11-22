@@ -27,7 +27,7 @@ public class NFABack {
 									{{},{2}},
 									{{},{}}};
 	static int estadoInicial = 0;
-	static int [] aceitacao = {0};
+	static int [] aceitacao = {1};
 	
 	public static void main(String[] args) {
 		//Leitura das cadeias
