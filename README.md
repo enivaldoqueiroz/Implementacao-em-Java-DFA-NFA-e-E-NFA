@@ -42,7 +42,7 @@ código, (007). Construa um autômato (DFA ou NFA) para reconhecer um agente 007
 cujo alfabeto é composto apenas de números inteiros [0-9].
 
 Cadeias Aceitas:
-{007, 00070, 0007, 10007, 007007, 123007, 007123007 ...}
+{007, 70007, 0007, 10007, 007007, 123007, 007123007 ...}
 
 Cadeias Não Aceitas:
 {’ ’, 7, 07, 070, 707070, 12307, 907 ...}
