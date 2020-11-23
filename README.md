@@ -150,6 +150,14 @@ b. Converta o autômato em um DFA
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG013.png)
 
+### Tabela
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG021.png)
+
+### Diagrama de transição DFA
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG022.png)
+
 7. Implemente um algoritmo, em sua linguagem de preferência, que converte um ε-NFA
 para um DFA utilizando a função ε-fechamento (ECLOSE) e o procedimento da
 construção de subconjuntos dos estados alcançados pela função ECLOSE. Este DFA deve
