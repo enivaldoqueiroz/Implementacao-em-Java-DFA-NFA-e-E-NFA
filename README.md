@@ -139,6 +139,13 @@ b. Converta o autômato em um DFA
 
 a. Calcule o ε-fechamento (função ECLOSE) de cada estado
 
+ECLOSE(p) = {p,q,r}
+
+ECLOSE(q) = {q}
+
+ECLOSE(r) =  {r}
+
+
 b. Converta o autômato em um DFA
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG013.png)
@@ -157,6 +164,7 @@ e um autômato finito. Considere as expressões regulares abaixo e construa um �
 para reconhecer strings aceitas por esta linguagem.
 
 a. c(a|b)*(bb|c+)
+
 b. 0?(007|70)*
 
 ## Questão extra:
