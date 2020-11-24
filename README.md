@@ -59,6 +59,17 @@ Cadeias Não Aceitas:
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG015.png)
 
+### Validando a questão 2 atraves da implementação de um DFA padrão state
+
+## Caideia Aceita
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG022.png)
+
+## Caideia Não Aceita
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG023.png)
+
+
 3. Implemente, em sua linguagem de preferência, um algoritmo que converte um NFA
 para um DFA utilizando o procedimento denominado construção de subconjuntos para
 encontrar o DFA que reconhece a mesma linguagem do NFA.
