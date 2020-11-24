@@ -63,11 +63,11 @@ Cadeias Não Aceitas:
 
 ## Caideia Aceita
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG022.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG023.png)
 
 ## Caideia Não Aceita
 
-![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG023.png)
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG024.png)
 
 
 3. Implemente, em sua linguagem de preferência, um algoritmo que converte um NFA
