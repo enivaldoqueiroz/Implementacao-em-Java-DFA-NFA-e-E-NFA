@@ -15,7 +15,7 @@ public class DFAGenerico {
 	//Alfabeto = {0,1}
 	static int[][] transicao = {{0,1},{1,0}};
 	static int estadoInicial = 0;
-	static int [] aceitacao = {0};
+	static int [] aceitacao = {1};
 	
 	public static void main(String[] args) {
 		
@@ -34,6 +34,8 @@ public class DFAGenerico {
 			simbolo = cadeia.charAt(posicao);
 			int simboloInt = Integer.parseInt(simbolo + "");
 			estado = transicao[estado][simboloInt];
+			
+			
 			posicao++;
 		}
 		imprimeCI(cadeia, estado, posicao);

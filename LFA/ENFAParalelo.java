@@ -25,7 +25,7 @@ public class ENFAParalelo {
 	static int[][][] transicao = {	{{1},{},{}},
 									{{},{2},{2}},
 									{{},{},{}}};
-	static int[][] transicaoVazia = {{}, {0},{0}};
+	static int[][] transicaoVazia = {{},{0},{0}};
 	static int estadoInicial = 0;
 	static int [] aceitacao = {0};
 	
