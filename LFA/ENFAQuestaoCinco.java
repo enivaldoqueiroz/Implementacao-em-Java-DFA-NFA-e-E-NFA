@@ -7,10 +7,10 @@ import java.util.TreeSet;
 //F = q2
 //Alfabeto = {0,1}
 //-----------------------
-//|		|	0	|	1	|
-//|->q0	|{q0,q1}|	{q0}|
-//|q1	|{}		|	{q2}|
-//|*q2	|{}		|	{}	|
+//|				|	0		|	1		|
+//|->{q1,q2,q6}	|{}			|{q3,q4}	|
+//|{q3,q4}		|{q5,q2,q6}}|{q2}		|
+//|*{q5,q2,q6}	|{}			|{q3,q4}	|
 //-----------------------
 // ->q0
 // q1
@@ -18,13 +18,15 @@ import java.util.TreeSet;
 
 
 
-public class ENFAParalelo {
+public class ENFAQuestaoCinco {
 	//Q = {q0, q1, q2}
 	//Alfabeto = {0,1}
 	
-	static int[][][] transicao = {	{{1},{},{1}},
-									{{},{2},{2}},
-									{{},{},{}}};
+	static int[][][] transicao = {	{{},{},{1}},
+									{{},{2},{}},
+									{{},{},{1}}
+								 };
+	
 	static int[][] transicaoVazia = {{},{0},{0}};
 	static int estadoInicial = 0;
 	static int [] aceitacao = {0};
@@ -74,6 +76,8 @@ public class ENFAParalelo {
 			int[] ecloseAux2 = eclose(ecloseAux);
 			eclose = uniao(eclose, ecloseAux);
 			eclose = uniao(eclose, ecloseAux2);
+			
+			
 		}
 		return eclose;
 	}
