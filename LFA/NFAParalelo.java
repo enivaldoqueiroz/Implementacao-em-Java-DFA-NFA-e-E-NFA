@@ -41,7 +41,7 @@ public class NFAParalelo {
 		
 		int posicao = 0;		
 		int[] estados = {estadoInicial};
-		
+		//Varrendo as  Posições e novosEstados
 		while(posicao < cadeia.length()) {
 			imprimeCI(cadeia, estados, posicao);
 			int [] novosEstados = new int[] {};
@@ -67,7 +67,7 @@ public class NFAParalelo {
 	}
 	
 	//Metodos
-	
+	//Verifica os estados e faz a unição dos novos estados atraves de estrutura arvore
 	public static int[] uniao(int[] estados, int[] novosEstados) {
 		Set<Integer> uniao = new TreeSet<>();
 		for(int i: estados) uniao.add(i);
@@ -77,7 +77,7 @@ public class NFAParalelo {
 		for(int i:uniao) ret[j++] = i;
 		return ret;
 	}
-	
+	//Verifica a aceitação dos estados
 	public static boolean aceita(int[] estados) {
 		if(estados == null) return false;
 		for(int i:estados) {
@@ -89,7 +89,7 @@ public class NFAParalelo {
 		}
 		return false;
 	}
-	
+	//Imprime a Configuração Instantania dos estados
 	public static void imprimeCI(String cadeia, int[] estado, int posicao) {
 		System.out.print(cadeia.substring(0,posicao) + "{");
 		for(int i=0; i < estado.length; i++ ) {
