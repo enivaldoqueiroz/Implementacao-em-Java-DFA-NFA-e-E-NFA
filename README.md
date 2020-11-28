@@ -184,7 +184,15 @@ para reconhecer strings aceitas por esta linguagem.
 
 a. c(a|b)*(bb|c+)
 
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG026.png)
+
 b. 0?(007|70)*
+
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG027.png)
 
 ## Questão extra:
 
