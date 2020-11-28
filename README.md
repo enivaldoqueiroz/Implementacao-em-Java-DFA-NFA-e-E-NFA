@@ -89,6 +89,14 @@ c. Comecem ou terminem com 100.
 
 ![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG010.png)
 
+## Por dentro do código
+
+## NFAParalelo
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG029.png)
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG028.png)
+
 
 4. Para que uma cadeia seja reconhecida em um NFA basta que todos os símbolos tenham
 sido processados, ou seja, não há mais símbolos para serem lidos e que em um dos
