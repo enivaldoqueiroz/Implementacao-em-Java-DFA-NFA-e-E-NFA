@@ -193,6 +193,16 @@ mesmo tempo um número par de 0’s e 1’s}. Exemplos de cadeias aceitas pela E
 {1001, 000011, 11101000, 01010101, ...}, Exemplos de cadeias que não são aceitas {001,
 110, 01011, ...}
 
+### Diagrama de transição
+
+![](https://github.com/enivaldoqueiroz/Implementacao-em-Java-DFA-NFA-e-E-NFA/blob/main/Imagens/IMG025.png)
+
+### Expressão Regular
+
+$+0(11)*0+(1+0(11)*10)(0(0+1(11)*10))*(1+01(11)*2)+($+0(11)*0+(1+0(11)*10)(0(0+1(11)*10))*(1+01(11)*0))
+
+(0(11)*0+(1+0(11)*10)(0(0+1(11)*10))*(1+01(11)*0))*($+0(11)*0+(1+0(11)*10)(0(0+1(11)*10))*(1+01(11)*0))
+
 ## Entregável
 
 . Realizar o trabalho individualmente
