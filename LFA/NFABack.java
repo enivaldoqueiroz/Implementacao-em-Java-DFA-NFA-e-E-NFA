@@ -47,6 +47,7 @@ public class NFABack {
 	}
 	
 	//Metodos
+	//Determina os conjuntos associados a cadeia informada
 	public static int[] testa(String cadeia, int[] estados, int posicao) {
 		if(posicao == cadeia.length()) {
 			imprimeCI(cadeia, estados[0], posicao);
@@ -73,7 +74,7 @@ public class NFABack {
 		return null;
 			
 	}
-	
+	//Verifica a aceitação dos estados
 	public static boolean aceita(int[] estados) {
 		if(estados == null) return false;
 		for(int i:estados) {
@@ -85,7 +86,7 @@ public class NFABack {
 		}
 		return false;
 	}
-	
+	//Imprime a Configuração Instantania dos estados
 	public static void imprimeCI(String cadeia, int estado, int posicao) {
 		System.out.print(cadeia.substring(0,posicao));
 		System.out.print("[q" + estado + "]");
